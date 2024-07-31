@@ -1,0 +1,10 @@
+10:28:57 **** Incremental Build of configuration Debug for project BreakInput_CM7 ****
+make -j8 all 
+arm-none-eabi-size  BreakInput_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31572	    208	   3288	  35068	   88fc	BreakInput_CM7.elf
+Finished building: default.size.stdout
+ 
+
+10:28:58 Build Finished. 0 errors, 0 warnings. (took 619ms)
+

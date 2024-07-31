@@ -1,0 +1,1633 @@
+!SESSION 2024-07-30 08:42:16.871 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\lagoeirl\STM32CubeIDE\ws_timer
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:42:19.702
+!MESSAGE System property http.proxyHost is not set but should be lps5.sgp.st.com.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:42:19.703
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-30 08:42:23.392
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-30 08:42:23.395
+!MESSAGE Log4j2 initialized with config file C:\Users\lagoeirl\STM32CubeIDE\ws_timer\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-30 08:42:26.345
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:42:58.832
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:42:58.834
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:42:58.835
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:42:58.836
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:42:59.551
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:42:59.552
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:42:59.554
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:42:59.556
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:00.032
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:00.034
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:00.035
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:00.035
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-07-30 08:43:00.507
+!MESSAGE HTTP Proxy Authentication Required: https://sw-center.st.com/stm32cubeide/updatesite1/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-07-30 08:43:00.510
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:00.513
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:00.514
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:00.516
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:00.517
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:01.000
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:01.001
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:01.002
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:01.003
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:01.478
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:01.480
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:01.484
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:01.486
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-07-30 08:43:01.973
+!MESSAGE HTTP Proxy Authentication Required: https://download.eclipse.org/releases/2023-12/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-07-30 08:43:01.973
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:01.977
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:01.979
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:01.981
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:43:01.982
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:44:18.059
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:44:18.063
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:44:18.066
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:44:18.067
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:45:33.918
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:45:33.926
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:45:33.942
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:45:33.944
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-07-30 08:45:34.431
+!MESSAGE HTTP Proxy Authentication Required: https://sw-center.st.com/stm32cubeide/openstlinux/updatesite1/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-07-30 08:45:34.431
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:45:34.435
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:45:34.436
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:45:34.440
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:45:34.442
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:45:34.921
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:45:34.922
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:45:34.924
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:45:34.925
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:45:35.410
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:45:35.412
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:45:35.418
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 08:45:35.419
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-07-30 08:45:35.899
+!MESSAGE HTTP Proxy Authentication Required: https://download.eclipse.org/tools/cdt/releases/latest/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-07-30 08:45:35.900
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-30 08:46:52.785
+!MESSAGE Indexed 'deadtimeInsertionPWM_Demo' (24 sources, 85 headers) in 3.63 sec: 5,042 declarations; 25,297 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0066%)
+
+!ENTRY org.eclipse.debug.core 4 5012 2024-07-30 10:52:30.215
+!MESSAGE Launch configuration deadtimeInsertionPWM_Demo Debug at file:/C:/Users/lagoeirl/STM32CubeIDE/ws_timer/deadtimeInsertionPWM_Demo/deadtimeInsertionPWM_Demo%20Debug.launch does not exist.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:53:45.645
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:53:45.652
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:53:45.658
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:53:45.659
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:53:45.660
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:53:45.662
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:53:45.663
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:53:45.663
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:53:45.664
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:53:45.665
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:53:45.666
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:53:45.667
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:53:45.668
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:53:45.668
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-30 10:56:17.368
+!MESSAGE Indexed 'variableFrequencyPWM_Demo' (24 sources, 85 headers) in 2.26 sec: 5,042 declarations; 25,297 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0066%)
+
+!ENTRY org.eclipse.core.resources 4 4 2024-07-30 10:58:38.684
+!MESSAGE Exception occurred while saving project preferences: /deadtimeInsertionPWM_Demo/.settings/com.st.stm32cube.ide.mcu.sfrview.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/deadtimeInsertionPWM_Demo)[372]: java.lang.Exception: Project 'deadtimeInsertionPWM_Demo' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:43)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.ProjectPreferences.lambda$1(ProjectPreferences.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:761)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:429)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:465)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.persistState(ProjectStateManager.java:95)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.refresh(ProjectStateManager.java:45)
+	at com.st.stm32cube.ide.mcu.sfrview.ui.SfrView.svdModelChanged(SfrView.java:1860)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.notifyListeners(SfrRegisterModel.java:1180)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1211)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1198)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.selectionChanged(SfrRegisterModel.java:1163)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2137)
+	at org.eclipse.jface.viewers.ColumnViewer.updateSelection(ColumnViewer.java:1060)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1175)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:464)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1204)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:263)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:421)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2024-07-30 10:58:38.691
+!MESSAGE Project 'deadtimeInsertionPWM_Demo' is not open.
+!STACK 0
+java.lang.Exception: Project 'deadtimeInsertionPWM_Demo' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:186)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:43)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.ProjectPreferences.lambda$1(ProjectPreferences.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:761)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:429)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:465)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.persistState(ProjectStateManager.java:95)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.refresh(ProjectStateManager.java:45)
+	at com.st.stm32cube.ide.mcu.sfrview.ui.SfrView.svdModelChanged(SfrView.java:1860)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.notifyListeners(SfrRegisterModel.java:1180)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1211)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1198)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.selectionChanged(SfrRegisterModel.java:1163)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2137)
+	at org.eclipse.jface.viewers.ColumnViewer.updateSelection(ColumnViewer.java:1060)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1175)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:464)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1204)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:263)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:421)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:59:43.468
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:59:43.472
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:59:43.478
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:59:43.482
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:59:43.483
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:59:43.484
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:59:43.484
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:59:43.485
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:59:43.486
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:59:43.486
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:59:43.487
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:59:43.487
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:59:43.488
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 10:59:43.489
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:00:44.712
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:00:44.718
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:00:44.728
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:00:44.732
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:00:44.735
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:00:44.738
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:00:44.745
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:00:44.748
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:00:44.750
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:00:44.752
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:00:44.753
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:00:44.754
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:00:44.756
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:00:44.757
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:01:49.729
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:01:49.733
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:01:49.738
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:01:49.739
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:01:49.741
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:01:49.741
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:01:49.744
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:01:49.746
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:01:49.748
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:01:49.749
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:01:49.751
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:01:49.753
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:01:49.756
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 11:01:49.757
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 13:01:28.607
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 13:01:28.615
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 13:01:28.626
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 13:01:28.634
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 13:01:28.642
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 13:01:28.648
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 13:01:28.657
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 13:01:28.669
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 13:01:28.680
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 13:01:28.690
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 13:01:28.701
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 13:01:28.711
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 13:01:28.719
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 13:01:28.728
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-30 14:28:55.201
+!MESSAGE Indexed 'variableFrequencyPWM_Demo_CM7' (31 sources, 97 headers) in 5.87 sec: 11,595 declarations; 99,065 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0018%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-30 14:29:00.704
+!MESSAGE Indexed 'variableFrequencyPWM_Demo_CM4' (28 sources, 92 headers) in 5.48 sec: 9,364 declarations; 71,233 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0025%)
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:06.285
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:06.301
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:06.308
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:06.310
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:06.312
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:06.313
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:06.314
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:06.315
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:06.317
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:06.318
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:06.323
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:06.326
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:06.329
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:06.329
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:58.585
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:58.591
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:58.598
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:58.600
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:58.601
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:58.602
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:58.604
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:58.605
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:58.607
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:58.609
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:58.610
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:58.612
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:58.615
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-30 15:09:58.616
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+!SESSION 2024-07-31 07:54:01.248 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-07-31 07:54:03.550
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:06.669
+!MESSAGE System property http.proxyHost is not set but should be lps5.sgp.st.com.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:06.669
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-31 07:54:10.824
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-31 07:54:10.826
+!MESSAGE Log4j2 initialized with config file C:\Users\lagoeirl\STM32CubeIDE\ws_timer\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:26.652
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:26.652
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:26.652
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:26.652
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:26.652
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:26.652
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:26.652
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:26.652
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:26.668
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:26.668
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:26.668
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:26.668
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:26.668
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:26.668
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:28.918
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:28.918
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:28.919
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:28.920
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:28.920
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:28.921
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:28.923
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:28.923
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:28.924
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:28.925
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:28.926
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:28.926
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:28.928
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:28.928
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:29.942
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:29.942
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:29.942
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:29.942
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:29.942
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:29.942
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:29.942
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:29.942
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:29.942
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:29.942
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:29.942
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:29.942
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:29.958
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:29.958
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:30.990
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:30.991
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:30.992
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:30.993
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:30.994
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:30.995
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:30.996
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:30.996
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:30.998
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:30.998
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:30.999
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:31.001
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:31.002
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:31.003
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:32.020
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:32.020
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:32.020
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:32.020
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:32.020
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:32.020
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:32.020
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:32.020
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:32.020
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:32.020
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:32.020
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:32.020
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:32.020
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:54:32.020
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:25.254
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:25.257
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-31 07:59:30.121
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:50.966
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:50.967
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:50.968
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:50.969
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:51.546
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:51.547
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:51.549
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:51.550
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:52.021
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:52.022
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:52.024
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:52.025
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-07-31 07:59:52.480
+!MESSAGE HTTP Proxy Authentication Required: https://sw-center.st.com/stm32cubeide/updatesite1/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-07-31 07:59:52.482
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:52.484
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:52.485
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:52.487
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:52.487
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:52.951
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:52.952
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:52.953
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:52.954
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:53.415
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:53.417
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:53.419
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:53.420
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-07-31 07:59:53.884
+!MESSAGE HTTP Proxy Authentication Required: https://download.eclipse.org/releases/2023-12/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-07-31 07:59:53.884
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:53.886
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:53.886
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:53.887
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:53.888
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:54.473
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:54.474
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:54.475
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:54.475
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:54.946
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:54.947
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:54.948
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:54.948
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-07-31 07:59:55.424
+!MESSAGE HTTP Proxy Authentication Required: https://sw-center.st.com/stm32cubeide/openstlinux/updatesite1/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-07-31 07:59:55.424
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:55.426
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:55.426
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:55.427
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 07:59:55.427
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 08:01:11.593
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 08:01:11.600
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 08:01:11.605
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 08:01:11.606
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 08:01:12.074
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 08:01:12.075
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 08:01:12.078
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 08:01:12.078
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-07-31 08:01:12.543
+!MESSAGE HTTP Proxy Authentication Required: https://download.eclipse.org/tools/cdt/releases/latest/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-07-31 08:01:12.543
+!MESSAGE Proxy Authentication Required
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-07-31 08:21:09.039
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 3 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-07-31 08:21:09.045
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-07-31 08:21:09.047
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 3 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-07-31 08:21:09.047
+!MESSAGE Existing sessions are:
+
+!ENTRY org.eclipse.ui.navigator.resources 4 0 2024-07-31 10:00:12.359
+!MESSAGE Could not acquire INavigatorContentService: Project Explorer not found.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:01:22.260
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:01:22.261
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:01:22.262
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:01:22.263
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:01:22.264
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:01:22.264
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:01:22.265
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:01:22.265
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:01:22.266
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:01:22.267
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:01:22.267
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:01:22.268
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:01:22.269
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:01:22.270
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-31 10:04:22.844
+!MESSAGE Indexed 'BreakInput_CM4' (28 sources, 92 headers) in 5.62 sec: 9,364 declarations; 71,233 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0025%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-31 10:04:26.474
+!MESSAGE Indexed 'BreakInput_CM7' (31 sources, 95 headers) in 3.63 sec: 10,293 declarations; 79,552 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0022%)
+
+!ENTRY org.eclipse.e4.ui.workbench.swt 4 2 2024-07-31 10:06:29.705
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.e4.ui.workbench.swt".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Widget.setData(Widget.java:1274)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.bindWidget(SWTPartRenderer.java:136)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:127)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeTopicToBeRendered(PartRenderingEngine.java:161)
+	at jdk.internal.reflect.GeneratedMethodAccessor192.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:208)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:314)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:656)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:625)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:796)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:764)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:686)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:681)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1261)
+	at org.eclipse.ui.internal.WorkbenchPage.showPart(WorkbenchPage.java:1248)
+	at org.eclipse.ui.internal.WorkbenchPage.busyShowView(WorkbenchPage.java:1236)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$13(WorkbenchPage.java:4252)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4250)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4234)
+	at org.eclipse.ui.handlers.ShowViewHandler.openView(ShowViewHandler.java:135)
+	at org.eclipse.ui.handlers.ShowViewHandler.execute(ShowViewHandler.java:91)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:99)
+	at jdk.internal.reflect.GeneratedMethodAccessor201.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:298)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:232)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.menus.CommandContributionItem.handleWidgetSelection(CommandContributionItem.java:785)
+	at org.eclipse.ui.menus.CommandContributionItem.lambda$3(CommandContributionItem.java:762)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-07-31 10:06:29.707
+!MESSAGE Exception occurred while rendering: org.eclipse.ui.navigator.ProjectExplorer=org.eclipse.e4.ui.model.application.ui.basic.impl.PartImpl@fb49fdf (tags: [View, categoryTag:General], contributorURI: null) (widget: null, renderer: org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer@1488d1c, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (contributionURI: bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView, object: CompatibilityPart [partId=org.eclipse.ui.navigator.ProjectExplorer, properties=[], tags=[View, categoryTag:General], wrapped=class org.eclipse.ui.navigator.resources.ProjectExplorer, legacyPart=class org.eclipse.ui.navigator.resources.ProjectExplorer, beingDisposed=true, alreadyDisposed=false], context: PartImpl (org.eclipse.ui.navigator.ProjectExplorer) Context, variables: [], label: Project Explorer, iconURI: platform:/plugin/org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.png, tooltip: , dirty: false, closeable: true, description: null)
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Widget.setData(Widget.java:1274)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.bindWidget(SWTPartRenderer.java:136)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:127)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeTopicToBeRendered(PartRenderingEngine.java:161)
+	at jdk.internal.reflect.GeneratedMethodAccessor192.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:208)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:314)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:656)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:625)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:796)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:764)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:686)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:681)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1261)
+	at org.eclipse.ui.internal.WorkbenchPage.showPart(WorkbenchPage.java:1248)
+	at org.eclipse.ui.internal.WorkbenchPage.busyShowView(WorkbenchPage.java:1236)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$13(WorkbenchPage.java:4252)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4250)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4234)
+	at org.eclipse.ui.handlers.ShowViewHandler.openView(ShowViewHandler.java:135)
+	at org.eclipse.ui.handlers.ShowViewHandler.execute(ShowViewHandler.java:91)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:99)
+	at jdk.internal.reflect.GeneratedMethodAccessor201.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:298)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:232)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.menus.CommandContributionItem.handleWidgetSelection(CommandContributionItem.java:785)
+	at org.eclipse.ui.menus.CommandContributionItem.lambda$3(CommandContributionItem.java:762)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SESSION 2024-07-31 10:06:51.346 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:06:54.526
+!MESSAGE System property http.proxyHost is not set but should be lps5.sgp.st.com.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:06:54.526
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-31 10:06:57.030
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-31 10:06:57.033
+!MESSAGE Log4j2 initialized with config file C:\Users\lagoeirl\STM32CubeIDE\ws_timer\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-31 10:07:02.560
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:34.843
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:34.844
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:34.846
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:34.847
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:35.651
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:35.652
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:35.653
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:35.658
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:36.145
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:36.147
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:36.152
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:36.154
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-07-31 10:07:36.696
+!MESSAGE HTTP Proxy Authentication Required: https://sw-center.st.com/stm32cubeide/updatesite1/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-07-31 10:07:36.698
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:36.700
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:36.702
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:36.708
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:36.710
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:37.247
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:37.249
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:37.256
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:37.263
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:37.800
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:37.801
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:37.802
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:37.807
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-07-31 10:07:38.326
+!MESSAGE HTTP Proxy Authentication Required: https://download.eclipse.org/releases/2023-12/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-07-31 10:07:38.326
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:38.330
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:38.331
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:38.334
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:38.334
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:38.952
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:38.956
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:38.966
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:38.977
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:39.584
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:39.595
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:39.601
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:39.602
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-07-31 10:07:40.160
+!MESSAGE HTTP Proxy Authentication Required: https://sw-center.st.com/stm32cubeide/openstlinux/updatesite1/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-07-31 10:07:40.160
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:40.161
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:40.163
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:40.164
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:40.165
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:40.693
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:40.693
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:40.697
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:40.697
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:41.244
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:41.245
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:41.246
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-07-31 10:07:41.247
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-07-31 10:07:41.926
+!MESSAGE HTTP Proxy Authentication Required: https://download.eclipse.org/tools/cdt/releases/latest/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-07-31 10:07:41.926
+!MESSAGE Proxy Authentication Required
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2024-07-31 10:28:18.767
+!MESSAGE ST-LINK GDB server failed to start (exit code = 0)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2024-07-31 10:28:18.823
+!MESSAGE Error in final launch sequence:
+
+Failed to start GDB server
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to start GDB server
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:334)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Error in initializing ST-LINK device.
+Reason: (0) Unknown. Please check power and cabling to target.
+	at com.st.stm32cube.ide.mcu.debug.stlink.StLinkDebugHardware.verifyServer(StLinkDebugHardware.java:1815)
+	at com.st.stm32cube.ide.mcu.debug.launch.export.HardwareDebugUtil.startServer(HardwareDebugUtil.java:199)
+	at com.st.stm32cube.ide.mcu.debug.launch.export.HardwareDebugUtil.startServer(HardwareDebugUtil.java:93)
+	at com.st.stm32cube.ide.mcu.debug.launch.LaunchSequenceUtil.stepStartGDBServer(LaunchSequenceUtil.java:206)
+	at com.st.stm32cube.ide.mcu.debug.launch.GDBExtendedJtagDSFFinalLaunchSequence_7_12.stepStartGDBServer(GDBExtendedJtagDSFFinalLaunchSequence_7_12.java:104)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.cdt.dsf.concurrent.ReflectionSequence$ReflectionStep.execute(ReflectionSequence.java:160)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleSuccess(Sequence.java:437)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 1 com.st.stm32cube.ide.mcu.debug.launch 4 0 2024-07-31 10:28:18.824
+!MESSAGE Failed to start GDB server
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error in initializing ST-LINK device.
+Reason: (0) Unknown. Please check power and cabling to target.
+	at com.st.stm32cube.ide.mcu.debug.stlink.StLinkDebugHardware.verifyServer(StLinkDebugHardware.java:1815)
+	at com.st.stm32cube.ide.mcu.debug.launch.export.HardwareDebugUtil.startServer(HardwareDebugUtil.java:199)
+	at com.st.stm32cube.ide.mcu.debug.launch.export.HardwareDebugUtil.startServer(HardwareDebugUtil.java:93)
+	at com.st.stm32cube.ide.mcu.debug.launch.LaunchSequenceUtil.stepStartGDBServer(LaunchSequenceUtil.java:206)
+	at com.st.stm32cube.ide.mcu.debug.launch.GDBExtendedJtagDSFFinalLaunchSequence_7_12.stepStartGDBServer(GDBExtendedJtagDSFFinalLaunchSequence_7_12.java:104)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.cdt.dsf.concurrent.ReflectionSequence$ReflectionStep.execute(ReflectionSequence.java:160)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleSuccess(Sequence.java:437)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 com.st.stm32cube.ide.mcu.toolchain 4 0 2024-07-31 10:28:18.824
+!MESSAGE Error in initializing ST-LINK device.
+Reason: (0) Unknown. Please check power and cabling to target.
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-31 13:29:28.487
+!MESSAGE Indexed 'PhasedPWM_CM4' (28 sources, 92 headers) in 6.3 sec: 9,364 declarations; 71,233 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0025%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-31 13:29:32.841
+!MESSAGE Indexed 'PhasedPWM_CM7' (31 sources, 95 headers) in 4.35 sec: 10,293 declarations; 79,552 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0022%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-07-31 14:01:04.588
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 7 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-07-31 14:01:04.591
+!MESSAGE Existing sessions are:
