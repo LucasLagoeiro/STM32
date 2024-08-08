@@ -1,0 +1,10 @@
+15:00:55 **** Incremental Build of configuration Debug for project TSC_DISCO ****
+make -j8 all 
+arm-none-eabi-size  TSC_DISCO.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15356	     44	   2572	  17972	   4634	TSC_DISCO.elf
+Finished building: default.size.stdout
+ 
+
+15:00:56 Build Finished. 0 errors, 0 warnings. (took 620ms)
+

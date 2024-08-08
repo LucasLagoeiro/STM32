@@ -1,0 +1,16 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:GPIO_IOToggle,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:STM32F072B-Discovery,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Normal_TSC
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Normal_TSC/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Normal_TSC/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:STM32F072B-Discovery/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:STM32F072B-Discovery/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:STM32F072RB-Nucleo/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:STM32F072RB-Nucleo/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TSC_DISCO/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TSC_firstSteps/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TSC_firstSteps/activeLaunchTarget=null\:---
+org.eclipse.launchbar.core.descriptorType.default\:GPIO_IOToggle/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:GPIO_IOToggle/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

@@ -1,0 +1,25 @@
+08:48:09 **** Incremental Build of configuration Debug for project TSC_firstSteps ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../TOUCHSENSING/App -I../Middlewares/ST/STM32_TouchSensing_Library/inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:77:21: warning: unused variable 'tsl_status' [-Wunused-variable]
+   77 |   tsl_user_status_t tsl_status;
+      |                     ^~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:50:26: warning: 'GPIO_InitStruct' defined but not used [-Wunused-variable]
+   50 | static GPIO_InitTypeDef  GPIO_InitStruct;
+      |                          ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "TSC_firstSteps.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\lagoeirl\STM32CubeIDE\TSC\TSC_firstSteps\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TSC_firstSteps.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TSC_firstSteps.elf
+ 
+arm-none-eabi-size  TSC_firstSteps.elf 
+arm-none-eabi-objdump -h -S TSC_firstSteps.elf  > "TSC_firstSteps.list"
+   text	   data	    bss	    dec	    hex	filename
+  13716	     44	   1836	  15596	   3cec	TSC_firstSteps.elf
+Finished building: default.size.stdout
+ 
+Finished building: TSC_firstSteps.list
+ 
+
+08:48:12 Build Finished. 0 errors, 2 warnings. (took 2s.786ms)
+
