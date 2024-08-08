@@ -1,0 +1,10 @@
+14:20:55 **** Incremental Build of configuration Debug for project UsingTimer_to_TriggerADC_CM7 ****
+make -j8 all 
+arm-none-eabi-size  UsingTimer_to_TriggerADC_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  42156	    208	   3392	  45756	   b2bc	UsingTimer_to_TriggerADC_CM7.elf
+Finished building: default.size.stdout
+ 
+
+14:20:56 Build Finished. 0 errors, 0 warnings. (took 612ms)
+

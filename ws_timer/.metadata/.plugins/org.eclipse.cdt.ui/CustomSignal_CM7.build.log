@@ -1,0 +1,10 @@
+09:25:54 **** Incremental Build of configuration Debug for project CustomSignal_CM7 ****
+make -j8 all 
+arm-none-eabi-size  CustomSignal_CM7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  40376	    380	   3404	  44160	   ac80	CustomSignal_CM7.elf
+Finished building: default.size.stdout
+ 
+
+09:25:55 Build Finished. 0 errors, 0 warnings. (took 606ms)
+
