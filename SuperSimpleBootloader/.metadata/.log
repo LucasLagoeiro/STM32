@@ -1,0 +1,531 @@
+!SESSION 2024-08-05 10:52:20.443 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\lagoeirl\STM32CubeIDE\SuperSimpleBootloader
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:52:23.447
+!MESSAGE System property http.proxyHost is not set but should be lps5.sgp.st.com.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:52:23.447
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-08-05 10:52:26.762
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-08-05 10:52:26.764
+!MESSAGE Log4j2 initialized with config file C:\Users\lagoeirl\STM32CubeIDE\SuperSimpleBootloader\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-08-05 10:52:29.530
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:00.517
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:00.518
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:00.519
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:00.520
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:01.068
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:01.069
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:01.070
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:01.071
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:01.531
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:01.534
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:01.536
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:01.537
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-08-05 10:53:01.990
+!MESSAGE Unable to read repository at https://sw-center.st.com/stm32cubeide/updatesite1/content.xml.
+!STACK 0
+java.io.IOException: Tunnel failed, got: 503
+	at java.net.http/jdk.internal.net.http.PlainTunnelingConnection.lambda$connectAsync$2(PlainTunnelingConnection.java:96)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:157)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.handle(Http1Response.java:695)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.handle(Http1Response.java:621)
+	at java.net.http/jdk.internal.net.http.Http1Response$Receiver.accept(Http1Response.java:612)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.tryAsyncReceive(Http1Response.java:668)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:233)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:01.993
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:01.994
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:01.996
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:01.996
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:02.490
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:02.491
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:02.492
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:02.493
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:02.955
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:02.957
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:02.958
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:53:02.959
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-08-05 10:54:18.790
+!MESSAGE Unable to read repository at https://download.eclipse.org/releases/2023-12/content.xml.
+!STACK 0
+java.io.IOException: Tunnel failed, got: 503
+	at java.net.http/jdk.internal.net.http.PlainTunnelingConnection.lambda$connectAsync$2(PlainTunnelingConnection.java:96)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:157)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.handle(Http1Response.java:695)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.handle(Http1Response.java:621)
+	at java.net.http/jdk.internal.net.http.Http1Response$Receiver.accept(Http1Response.java:612)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.tryAsyncReceive(Http1Response.java:668)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:233)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:54:18.793
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:54:18.793
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:54:18.794
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:54:18.795
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:34.623
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:34.626
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:34.630
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:34.631
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:35.223
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:35.224
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:35.230
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:35.232
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-08-05 10:55:35.701
+!MESSAGE HTTP Proxy Authentication Required: https://sw-center.st.com/stm32cubeide/openstlinux/updatesite1/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-08-05 10:55:35.702
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:35.707
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:35.709
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:35.714
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:35.714
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:36.185
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:36.188
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:36.191
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:36.194
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:36.665
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:36.668
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:36.670
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 10:55:36.672
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-08-05 10:55:37.137
+!MESSAGE HTTP Proxy Authentication Required: https://download.eclipse.org/tools/cdt/releases/latest/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-08-05 10:55:37.137
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:15.373
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:15.376
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:15.380
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:15.382
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:15.384
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:15.385
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:15.387
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:15.389
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:15.393
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:15.394
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:15.399
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:15.402
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:15.407
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:15.410
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:17.520
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:17.530
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:17.538
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:17.539
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:17.540
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:17.541
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:17.543
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:17.543
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:17.544
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:17.545
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:17.547
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:17.547
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:17.549
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-05 11:18:17.549
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+!SESSION 2024-08-07 09:59:03.547 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\lagoeirl\STM32CubeIDE\SuperSimpleBootloader
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:06.906
+!MESSAGE System property http.proxyHost is not set but should be lps5.sgp.st.com.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:06.908
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-08-07 09:59:09.194
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-08-07 09:59:09.196
+!MESSAGE Log4j2 initialized with config file C:\Users\lagoeirl\STM32CubeIDE\SuperSimpleBootloader\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-08-07 09:59:13.283
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:45.249
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:45.250
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:45.252
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:45.252
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:45.941
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:45.944
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:45.952
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:45.952
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:46.449
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:46.450
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:46.452
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:46.452
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-08-07 09:59:46.945
+!MESSAGE HTTP Proxy Authentication Required: https://sw-center.st.com/stm32cubeide/updatesite1/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-08-07 09:59:46.949
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:46.951
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:46.951
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:46.952
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:46.952
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:49.119
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:49.122
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:49.125
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:49.127
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:49.626
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:49.627
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:49.632
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:49.633
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-08-07 09:59:50.125
+!MESSAGE HTTP Proxy Authentication Required: https://download.eclipse.org/releases/2023-12/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-08-07 09:59:50.125
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:50.128
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:50.134
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:50.137
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:50.138
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:50.635
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:50.636
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:50.637
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:50.638
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:51.140
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:51.142
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:51.144
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:51.148
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-08-07 09:59:51.642
+!MESSAGE HTTP Proxy Authentication Required: https://sw-center.st.com/stm32cubeide/openstlinux/updatesite1/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-08-07 09:59:51.642
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:51.649
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:51.652
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:51.656
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:51.658
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:52.154
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:52.155
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:52.157
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:52.157
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:52.654
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:52.656
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:52.658
+!MESSAGE System property https.proxyHost is set to lps5.sgp.st.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-08-07 09:59:52.658
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-08-07 09:59:53.153
+!MESSAGE HTTP Proxy Authentication Required: https://download.eclipse.org/tools/cdt/releases/latest/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:292)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-08-07 09:59:53.153
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-08-07 10:05:15.957
+!MESSAGE Indexed 'SuperSimpleBootloader' (24 sources, 85 headers) in 3.79 sec: 5,042 declarations; 25,297 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0066%)
