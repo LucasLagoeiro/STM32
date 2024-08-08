@@ -1,0 +1,17 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blink/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blink/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BlinkNew\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:External_Interrupt\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:External_Interrupt\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:FLASH_EraseProgram/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:FLASH_EraseProgram/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:G0_USART/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Printf/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:SuperSimpleBootLoader\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART2\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART2\ Debug/activeLaunchTarget=null\:---

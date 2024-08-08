@@ -1,0 +1,10 @@
+08:48:34 **** Incremental Build of configuration Debug for project SuperSimpleBootLoader ****
+make -j8 all 
+arm-none-eabi-size  SuperSimpleBootLoader.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9466	     12	   1844	  11322	   2c3a	SuperSimpleBootLoader.elf
+Finished building: default.size.stdout
+ 
+
+08:48:35 Build Finished. 0 errors, 0 warnings. (took 374ms)
+
