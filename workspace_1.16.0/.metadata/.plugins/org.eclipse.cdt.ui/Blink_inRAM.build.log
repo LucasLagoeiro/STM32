@@ -1,0 +1,10 @@
+10:58:07 **** Incremental Build of configuration Debug for project Blink_inRAM ****
+make -j8 all 
+arm-none-eabi-size  Blink_inRAM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10092	      0	   1720	  11812	   2e24	Blink_inRAM.elf
+Finished building: default.size.stdout
+ 
+
+10:58:07 Build Finished. 0 errors, 0 warnings. (took 419ms)
+

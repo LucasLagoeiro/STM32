@@ -1,0 +1,10 @@
+10:28:55 **** Incremental Build of configuration Debug for project SPI_Master ****
+make -j8 all 
+arm-none-eabi-size  SPI_Master.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12760	     16	   1816	  14592	   3900	SPI_Master.elf
+Finished building: default.size.stdout
+ 
+
+10:28:55 Build Finished. 0 errors, 0 warnings. (took 486ms)
+

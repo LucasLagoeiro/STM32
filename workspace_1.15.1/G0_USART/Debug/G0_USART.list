@@ -503,11 +503,11 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	 if(HAL_UART_Transmit(&huart2, "TEST ", 6, 100)!= HAL_OK)
+	 if(HAL_UART_Transmit(&huart2, "TEST \n\r", 8, 100)!= HAL_OK)
  8000400:	4907      	ldr	r1, [pc, #28]	@ (8000420 <main+0x34>)
  8000402:	4808      	ldr	r0, [pc, #32]	@ (8000424 <main+0x38>)
  8000404:	2364      	movs	r3, #100	@ 0x64
- 8000406:	2206      	movs	r2, #6
+ 8000406:	2208      	movs	r2, #8
  8000408:	f001 fb50 	bl	8001aac <HAL_UART_Transmit>
  800040c:	1e03      	subs	r3, r0, #0
  800040e:	d001      	beq.n	8000414 <main+0x28>
@@ -519,7 +519,7 @@ int main(void)
  8000416:	005b      	lsls	r3, r3, #1
  8000418:	0018      	movs	r0, r3
  800041a:	f000 fa47 	bl	80008ac <HAL_Delay>
-	 if(HAL_UART_Transmit(&huart2, "TEST ", 6, 100)!= HAL_OK)
+	 if(HAL_UART_Transmit(&huart2, "TEST \n\r", 8, 100)!= HAL_OK)
  800041e:	e7ef      	b.n	8000400 <main+0x14>
  8000420:	08002648 	.word	0x08002648
  8000424:	20000028 	.word	0x20000028
@@ -661,85 +661,85 @@ static void MX_USART2_UART_Init(void)
  80004d0:	4b1e      	ldr	r3, [pc, #120]	@ (800054c <MX_USART2_UART_Init+0x94>)
  80004d2:	2200      	movs	r2, #0
  80004d4:	60da      	str	r2, [r3, #12]
-  huart2.Init.Parity = UART_PARITY_EVEN;
+  huart2.Init.Parity = UART_PARITY_NONE;
  80004d6:	4b1d      	ldr	r3, [pc, #116]	@ (800054c <MX_USART2_UART_Init+0x94>)
- 80004d8:	2280      	movs	r2, #128	@ 0x80
- 80004da:	00d2      	lsls	r2, r2, #3
- 80004dc:	611a      	str	r2, [r3, #16]
+ 80004d8:	2200      	movs	r2, #0
+ 80004da:	611a      	str	r2, [r3, #16]
   huart2.Init.Mode = UART_MODE_TX_RX;
- 80004de:	4b1b      	ldr	r3, [pc, #108]	@ (800054c <MX_USART2_UART_Init+0x94>)
- 80004e0:	220c      	movs	r2, #12
- 80004e2:	615a      	str	r2, [r3, #20]
+ 80004dc:	4b1b      	ldr	r3, [pc, #108]	@ (800054c <MX_USART2_UART_Init+0x94>)
+ 80004de:	220c      	movs	r2, #12
+ 80004e0:	615a      	str	r2, [r3, #20]
   huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
- 80004e4:	4b19      	ldr	r3, [pc, #100]	@ (800054c <MX_USART2_UART_Init+0x94>)
- 80004e6:	2200      	movs	r2, #0
- 80004e8:	619a      	str	r2, [r3, #24]
+ 80004e2:	4b1a      	ldr	r3, [pc, #104]	@ (800054c <MX_USART2_UART_Init+0x94>)
+ 80004e4:	2200      	movs	r2, #0
+ 80004e6:	619a      	str	r2, [r3, #24]
   huart2.Init.OverSampling = UART_OVERSAMPLING_16;
- 80004ea:	4b18      	ldr	r3, [pc, #96]	@ (800054c <MX_USART2_UART_Init+0x94>)
- 80004ec:	2200      	movs	r2, #0
- 80004ee:	61da      	str	r2, [r3, #28]
+ 80004e8:	4b18      	ldr	r3, [pc, #96]	@ (800054c <MX_USART2_UART_Init+0x94>)
+ 80004ea:	2200      	movs	r2, #0
+ 80004ec:	61da      	str	r2, [r3, #28]
   huart2.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
- 80004f0:	4b16      	ldr	r3, [pc, #88]	@ (800054c <MX_USART2_UART_Init+0x94>)
- 80004f2:	2200      	movs	r2, #0
- 80004f4:	621a      	str	r2, [r3, #32]
+ 80004ee:	4b17      	ldr	r3, [pc, #92]	@ (800054c <MX_USART2_UART_Init+0x94>)
+ 80004f0:	2200      	movs	r2, #0
+ 80004f2:	621a      	str	r2, [r3, #32]
   huart2.Init.ClockPrescaler = UART_PRESCALER_DIV1;
- 80004f6:	4b15      	ldr	r3, [pc, #84]	@ (800054c <MX_USART2_UART_Init+0x94>)
- 80004f8:	2200      	movs	r2, #0
- 80004fa:	625a      	str	r2, [r3, #36]	@ 0x24
+ 80004f4:	4b15      	ldr	r3, [pc, #84]	@ (800054c <MX_USART2_UART_Init+0x94>)
+ 80004f6:	2200      	movs	r2, #0
+ 80004f8:	625a      	str	r2, [r3, #36]	@ 0x24
   huart2.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
- 80004fc:	4b13      	ldr	r3, [pc, #76]	@ (800054c <MX_USART2_UART_Init+0x94>)
- 80004fe:	2200      	movs	r2, #0
- 8000500:	629a      	str	r2, [r3, #40]	@ 0x28
+ 80004fa:	4b14      	ldr	r3, [pc, #80]	@ (800054c <MX_USART2_UART_Init+0x94>)
+ 80004fc:	2200      	movs	r2, #0
+ 80004fe:	629a      	str	r2, [r3, #40]	@ 0x28
   if (HAL_UART_Init(&huart2) != HAL_OK)
- 8000502:	4b12      	ldr	r3, [pc, #72]	@ (800054c <MX_USART2_UART_Init+0x94>)
- 8000504:	0018      	movs	r0, r3
- 8000506:	f001 fa7b 	bl	8001a00 <HAL_UART_Init>
- 800050a:	1e03      	subs	r3, r0, #0
- 800050c:	d001      	beq.n	8000512 <MX_USART2_UART_Init+0x5a>
+ 8000500:	4b12      	ldr	r3, [pc, #72]	@ (800054c <MX_USART2_UART_Init+0x94>)
+ 8000502:	0018      	movs	r0, r3
+ 8000504:	f001 fa7c 	bl	8001a00 <HAL_UART_Init>
+ 8000508:	1e03      	subs	r3, r0, #0
+ 800050a:	d001      	beq.n	8000510 <MX_USART2_UART_Init+0x58>
   {
     Error_Handler();
- 800050e:	f000 f871 	bl	80005f4 <Error_Handler>
+ 800050c:	f000 f872 	bl	80005f4 <Error_Handler>
   }
   if (HAL_UARTEx_SetTxFifoThreshold(&huart2, UART_TXFIFO_THRESHOLD_1_8) != HAL_OK)
- 8000512:	4b0e      	ldr	r3, [pc, #56]	@ (800054c <MX_USART2_UART_Init+0x94>)
- 8000514:	2100      	movs	r1, #0
- 8000516:	0018      	movs	r0, r3
- 8000518:	f001 ff7e 	bl	8002418 <HAL_UARTEx_SetTxFifoThreshold>
- 800051c:	1e03      	subs	r3, r0, #0
- 800051e:	d001      	beq.n	8000524 <MX_USART2_UART_Init+0x6c>
+ 8000510:	4b0e      	ldr	r3, [pc, #56]	@ (800054c <MX_USART2_UART_Init+0x94>)
+ 8000512:	2100      	movs	r1, #0
+ 8000514:	0018      	movs	r0, r3
+ 8000516:	f001 ff7f 	bl	8002418 <HAL_UARTEx_SetTxFifoThreshold>
+ 800051a:	1e03      	subs	r3, r0, #0
+ 800051c:	d001      	beq.n	8000522 <MX_USART2_UART_Init+0x6a>
   {
     Error_Handler();
- 8000520:	f000 f868 	bl	80005f4 <Error_Handler>
+ 800051e:	f000 f869 	bl	80005f4 <Error_Handler>
   }
   if (HAL_UARTEx_SetRxFifoThreshold(&huart2, UART_RXFIFO_THRESHOLD_1_8) != HAL_OK)
- 8000524:	4b09      	ldr	r3, [pc, #36]	@ (800054c <MX_USART2_UART_Init+0x94>)
- 8000526:	2100      	movs	r1, #0
- 8000528:	0018      	movs	r0, r3
- 800052a:	f001 ffb5 	bl	8002498 <HAL_UARTEx_SetRxFifoThreshold>
- 800052e:	1e03      	subs	r3, r0, #0
- 8000530:	d001      	beq.n	8000536 <MX_USART2_UART_Init+0x7e>
+ 8000522:	4b0a      	ldr	r3, [pc, #40]	@ (800054c <MX_USART2_UART_Init+0x94>)
+ 8000524:	2100      	movs	r1, #0
+ 8000526:	0018      	movs	r0, r3
+ 8000528:	f001 ffb6 	bl	8002498 <HAL_UARTEx_SetRxFifoThreshold>
+ 800052c:	1e03      	subs	r3, r0, #0
+ 800052e:	d001      	beq.n	8000534 <MX_USART2_UART_Init+0x7c>
   {
     Error_Handler();
- 8000532:	f000 f85f 	bl	80005f4 <Error_Handler>
+ 8000530:	f000 f860 	bl	80005f4 <Error_Handler>
   }
   if (HAL_UARTEx_DisableFifoMode(&huart2) != HAL_OK)
- 8000536:	4b05      	ldr	r3, [pc, #20]	@ (800054c <MX_USART2_UART_Init+0x94>)
- 8000538:	0018      	movs	r0, r3
- 800053a:	f001 ff33 	bl	80023a4 <HAL_UARTEx_DisableFifoMode>
- 800053e:	1e03      	subs	r3, r0, #0
- 8000540:	d001      	beq.n	8000546 <MX_USART2_UART_Init+0x8e>
+ 8000534:	4b05      	ldr	r3, [pc, #20]	@ (800054c <MX_USART2_UART_Init+0x94>)
+ 8000536:	0018      	movs	r0, r3
+ 8000538:	f001 ff34 	bl	80023a4 <HAL_UARTEx_DisableFifoMode>
+ 800053c:	1e03      	subs	r3, r0, #0
+ 800053e:	d001      	beq.n	8000544 <MX_USART2_UART_Init+0x8c>
   {
     Error_Handler();
- 8000542:	f000 f857 	bl	80005f4 <Error_Handler>
+ 8000540:	f000 f858 	bl	80005f4 <Error_Handler>
   }
   /* USER CODE BEGIN USART2_Init 2 */
 
   /* USER CODE END USART2_Init 2 */
 
 }
- 8000546:	46c0      	nop			@ (mov r8, r8)
- 8000548:	46bd      	mov	sp, r7
- 800054a:	bd80      	pop	{r7, pc}
+ 8000544:	46c0      	nop			@ (mov r8, r8)
+ 8000546:	46bd      	mov	sp, r7
+ 8000548:	bd80      	pop	{r7, pc}
+ 800054a:	46c0      	nop			@ (mov r8, r8)
  800054c:	20000028 	.word	0x20000028
  8000550:	40004400 	.word	0x40004400
 

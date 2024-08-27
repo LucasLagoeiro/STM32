@@ -1,0 +1,10 @@
+13:47:43 **** Incremental Build of configuration Debug for project I2C_Slave ****
+make -j8 all 
+arm-none-eabi-size  I2C_Slave.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18368	     12	   1796	  20176	   4ed0	I2C_Slave.elf
+Finished building: default.size.stdout
+ 
+
+13:47:44 Build Finished. 0 errors, 0 warnings. (took 640ms)
+

@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "stdio.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -36,14 +36,24 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
+typedef void (*ptrF)(uint32_t dlyticks);
+typedef void (*ptrFunction)(void);
 
+struct BootloaderSharedAPI{
+	void(*Blink)(uint32_t dlyticks);
+	void(*TurnOn)(void);
+	void(*TurnOff)(void);
+};
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-
+unsigned char __attribute__((section(".myBufSectionRAM"))) buf_ram[128];
+const unsigned char __attribute__((section(".myBufSectionFLASH"))) buf_flash[10] = {0,1,2,3,4,5,6,7,8,9};
+#define LOCATE_FUNC __attribute__((section(".mysection")))
+#define FLASH_APP_ADDR 0x8008000
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -51,12 +61,80 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
+void LOCATE_FUNC Blink(uint32_t dlyticks);
+void LOCATE_FUNC TurnOn(void);
+void LOCATE_FUNC TurnOff(void);
 
+void go2APP(void);
+#ifdef FIRST_VIDEO
+static ptrF Functions[] = {Blink};
+#endif
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+void LOCATE_FUNC Blink(uint32_t dlyticks){
+	HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin);
+	HAL_Delay(dlyticks);
+}
 
+void LOCATE_FUNC TurnOn(void)
+{
+	HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, GPIO_PIN_SET);
+}
+
+void LOCATE_FUNC TurnOff(void)
+{
+	HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, GPIO_PIN_RESET);
+}
+
+
+void __attribute__((__section__(".RamFunc"))) TurnOnLED(GPIO_PinState PinState){
+	if (PinState != GPIO_PIN_RESET) LED_GREEN_GPIO_Port->BSRR = (uint32_t)LED_GREEN_Pin;
+	else LED_GREEN_GPIO_Port->BSRR = (uint32_t)LED_GREEN_Pin;
+}
+
+struct BootloaderSharedAPI api __attribute__((section(".API_SHARED"))) = {
+		Blink,
+		TurnOn,
+		TurnOff
+};
+
+
+void go2APP(void){
+	uint32_t JumpAddress;
+	ptrFunction Jump_To_Application;
+
+	printf("BOOTLOADER Start \r\n");
+
+	//check if there is something "installed" in the app FLASH region
+	if(((*(uint32_t*) FLASH_APP_ADDR) & 0x2FFE0000) == 0x20000000){
+		printf("APP Start ...\r\n");
+		HAL_Delay(100);
+		//jump to the application
+		JumpAddress = *(uint32_t *) (FLASH_APP_ADDR + 4);
+		Jump_To_Application = (ptrFunction) JumpAddress;
+		//initialize application's stack pointer
+		__set_MSP(*(uint32_t *)FLASH_APP_ADDR);
+		Jump_To_Application();
+	}
+	else{
+		printf("No APP was found\r\n");
+	}
+
+
+
+}
+
+int _write(int file, char *ptr, int len){
+	int DataIdx;
+
+	for (DataIdx = 0; DataIdx < len; DataIdx++){
+		HAL_UART_Transmit(&huart2, (uint8_t *)ptr++, 1, 100);
+	}
+
+	return len;
+}
 /* USER CODE END 0 */
 
 /**
@@ -100,6 +178,14 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+//	Blink(100);
+//	  TurnOnLED(GPIO_PIN_SET);
+#ifdef FIRST_VIDEO
+	  (*Functions[0])(100);
+#endif
+	  go2APP();
+
+
   }
   /* USER CODE END 3 */
 }
