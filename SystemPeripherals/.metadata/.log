@@ -2832,3 +2832,18 @@ java.lang.IllegalStateException: Disconnected before saving. https://bugs.eclips
 		at org.eclipse.ui.ide.IDE.saveAllEditors(IDE.java:1446)
 		at org.eclipse.ui.actions.CloseResourceAction.run(CloseResourceAction.java:190)
 		... 29 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-08-27 14:14:41.205
+!MESSAGE Indexed 'TestingX-NUCLEOSensors' (25 sources, 82 headers) in 1.65 sec: 5,354 declarations; 28,364 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0059%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-08-28 07:56:06.252
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 20 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-08-28 07:56:06.253
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-08-28 07:56:06.255
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 20 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-08-28 07:56:06.256
+!MESSAGE Existing sessions are:

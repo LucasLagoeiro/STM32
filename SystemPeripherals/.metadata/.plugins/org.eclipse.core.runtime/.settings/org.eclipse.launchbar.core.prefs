@@ -20,5 +20,6 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:SPI_Slave_CM4/activeLaunchMode=
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:SPI_Slave_CM4/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:SPI_Slave_CM7/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:SPI_Slave_L4/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TestingX-NUCLEOSensors/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:SPI_Slave\ Debug/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:SPI_Slave\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

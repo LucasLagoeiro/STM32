@@ -1,0 +1,10 @@
+07:55:58 **** Incremental Build of configuration Debug for project TestingX-NUCLEOSensors ****
+make -j8 all 
+arm-none-eabi-size  TestingX-NUCLEOSensors.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39976	    316	   2380	  42672	   a6b0	TestingX-NUCLEOSensors.elf
+Finished building: default.size.stdout
+ 
+
+07:55:59 Build Finished. 0 errors, 0 warnings. (took 709ms)
+
