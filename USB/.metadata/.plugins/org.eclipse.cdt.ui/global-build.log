@@ -1,0 +1,592 @@
+10:30:58 **** Build of configuration Debug for project Application ****
+make -j8 all 
+arm-none-eabi-g++ "../TouchGFX/target/generated/OSWrappers.cpp" -mcpu=cortex-m33 -std=gnu++14 -g3 -DDEBUG -DTX_INCLUDE_USER_DEFINE_FILE -DTX_SINGLE_MODE_NON_SECURE=1 -DUSE_HAL_DRIVER -DSTM32U5A5xx -c -I../Core/Inc -I../TouchGFX/App -I../TouchGFX/target/generated -I../TouchGFX/target -I../AZURE_RTOS/App -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/threadx/common/inc -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc -I../Middlewares/ST/threadx/utility/low_power -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"TouchGFX/target/generated/OSWrappers.d" -MT"TouchGFX/target/generated/OSWrappers.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "TouchGFX/target/generated/OSWrappers.o"
+arm-none-eabi-g++ "../TouchGFX/target/generated/STM32DMA.cpp" -mcpu=cortex-m33 -std=gnu++14 -g3 -DDEBUG -DTX_INCLUDE_USER_DEFINE_FILE -DTX_SINGLE_MODE_NON_SECURE=1 -DUSE_HAL_DRIVER -DSTM32U5A5xx -c -I../Core/Inc -I../TouchGFX/App -I../TouchGFX/target/generated -I../TouchGFX/target -I../AZURE_RTOS/App -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/threadx/common/inc -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc -I../Middlewares/ST/threadx/utility/low_power -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"TouchGFX/target/generated/STM32DMA.d" -MT"TouchGFX/target/generated/STM32DMA.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "TouchGFX/target/generated/STM32DMA.o"
+arm-none-eabi-g++ "../TouchGFX/target/generated/TouchGFXConfiguration.cpp" -mcpu=cortex-m33 -std=gnu++14 -g3 -DDEBUG -DTX_INCLUDE_USER_DEFINE_FILE -DTX_SINGLE_MODE_NON_SECURE=1 -DUSE_HAL_DRIVER -DSTM32U5A5xx -c -I../Core/Inc -I../TouchGFX/App -I../TouchGFX/target/generated -I../TouchGFX/target -I../AZURE_RTOS/App -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/threadx/common/inc -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc -I../Middlewares/ST/threadx/utility/low_power -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"TouchGFX/target/generated/TouchGFXConfiguration.d" -MT"TouchGFX/target/generated/TouchGFXConfiguration.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "TouchGFX/target/generated/TouchGFXConfiguration.o"
+arm-none-eabi-g++ "../TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp" -mcpu=cortex-m33 -std=gnu++14 -g3 -DDEBUG -DTX_INCLUDE_USER_DEFINE_FILE -DTX_SINGLE_MODE_NON_SECURE=1 -DUSE_HAL_DRIVER -DSTM32U5A5xx -c -I../Core/Inc -I../TouchGFX/App -I../TouchGFX/target/generated -I../TouchGFX/target -I../AZURE_RTOS/App -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/threadx/common/inc -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc -I../Middlewares/ST/threadx/utility/low_power -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"TouchGFX/target/generated/TouchGFXGeneratedHAL.d" -MT"TouchGFX/target/generated/TouchGFXGeneratedHAL.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "TouchGFX/target/generated/TouchGFXGeneratedHAL.o"
+arm-none-eabi-g++ "../TouchGFX/target/STM32TouchController.cpp" -mcpu=cortex-m33 -std=gnu++14 -g3 -DDEBUG -DTX_INCLUDE_USER_DEFINE_FILE -DTX_SINGLE_MODE_NON_SECURE=1 -DUSE_HAL_DRIVER -DSTM32U5A5xx -c -I../Core/Inc -I../TouchGFX/App -I../TouchGFX/target/generated -I../TouchGFX/target -I../AZURE_RTOS/App -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/threadx/common/inc -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc -I../Middlewares/ST/threadx/utility/low_power -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"TouchGFX/target/STM32TouchController.d" -MT"TouchGFX/target/STM32TouchController.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "TouchGFX/target/STM32TouchController.o"
+arm-none-eabi-g++ "../TouchGFX/target/TouchGFXGPIO.cpp" -mcpu=cortex-m33 -std=gnu++14 -g3 -DDEBUG -DTX_INCLUDE_USER_DEFINE_FILE -DTX_SINGLE_MODE_NON_SECURE=1 -DUSE_HAL_DRIVER -DSTM32U5A5xx -c -I../Core/Inc -I../TouchGFX/App -I../TouchGFX/target/generated -I../TouchGFX/target -I../AZURE_RTOS/App -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/threadx/common/inc -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc -I../Middlewares/ST/threadx/utility/low_power -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"TouchGFX/target/TouchGFXGPIO.d" -MT"TouchGFX/target/TouchGFXGPIO.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "TouchGFX/target/TouchGFXGPIO.o"
+arm-none-eabi-g++ "../TouchGFX/target/TouchGFXHAL.cpp" -mcpu=cortex-m33 -std=gnu++14 -g3 -DDEBUG -DTX_INCLUDE_USER_DEFINE_FILE -DTX_SINGLE_MODE_NON_SECURE=1 -DUSE_HAL_DRIVER -DSTM32U5A5xx -c -I../Core/Inc -I../TouchGFX/App -I../TouchGFX/target/generated -I../TouchGFX/target -I../AZURE_RTOS/App -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/threadx/common/inc -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc -I../Middlewares/ST/threadx/utility/low_power -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"TouchGFX/target/TouchGFXHAL.d" -MT"TouchGFX/target/TouchGFXHAL.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "TouchGFX/target/TouchGFXHAL.o"
+arm-none-eabi-gcc "../TouchGFX/App/app_touchgfx.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DTX_INCLUDE_USER_DEFINE_FILE -DTX_SINGLE_MODE_NON_SECURE=1 -DUSE_HAL_DRIVER -DSTM32U5A5xx -c -I../Core/Inc -I../TouchGFX/App -I../TouchGFX/target/generated -I../TouchGFX/target -I../AZURE_RTOS/App -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/threadx/common/inc -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc -I../Middlewares/ST/threadx/utility/low_power -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"TouchGFX/App/app_touchgfx.d" -MT"TouchGFX/App/app_touchgfx.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "TouchGFX/App/app_touchgfx.o"
+../TouchGFX/target/generated/OSWrappers.cpp:19:10: fatal error: touchgfx/hal/HAL.hpp: No such file or directory
+   19 | #include <touchgfx/hal/HAL.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:19:
+../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:21:10: fatal error: touchgfx/hal/HAL.hpp: No such file or directory
+   21 | #include <touchgfx/hal/HAL.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+../TouchGFX/target/generated/TouchGFXConfiguration.cpp:19:10: fatal error: texts/TypedTextDatabase.hpp: No such file or directory
+   19 | #include <texts/TypedTextDatabase.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../TouchGFX/target/generated/STM32DMA.cpp:19:
+../TouchGFX/target/generated/STM32DMA.hpp:21:10: fatal error: touchgfx/hal/BlitOp.hpp: No such file or directory
+   21 | #include <touchgfx/hal/BlitOp.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+make: *** [TouchGFX/target/generated/subdir.mk:28: TouchGFX/target/generated/OSWrappers.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [TouchGFX/target/generated/subdir.mk:28: TouchGFX/target/generated/STM32DMA.o] Error 1
+make: *** [TouchGFX/target/generated/subdir.mk:28: TouchGFX/target/generated/TouchGFXGeneratedHAL.o] Error 1
+make: *** [TouchGFX/target/generated/subdir.mk:28: TouchGFX/target/generated/TouchGFXConfiguration.o] Error 1
+In file included from ../TouchGFX/target/STM32TouchController.cpp:25:
+../TouchGFX/target/STM32TouchController.hpp:28:10: fatal error: platform/driver/touch/TouchController.hpp: No such file or directory
+   28 | #include <platform/driver/touch/TouchController.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+../TouchGFX/target/TouchGFXGPIO.cpp:23:10: fatal error: touchgfx/hal/GPIO.hpp: No such file or directory
+   23 | #include <touchgfx/hal/GPIO.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [TouchGFX/target/subdir.mk:25: TouchGFX/target/TouchGFXGPIO.o] Error 1
+make: *** [TouchGFX/target/subdir.mk:25: TouchGFX/target/STM32TouchController.o] Error 1
+In file included from ../TouchGFX/target/TouchGFXHAL.hpp:27,
+                 from ../TouchGFX/target/TouchGFXHAL.cpp:23:
+../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:21:10: fatal error: touchgfx/hal/HAL.hpp: No such file or directory
+   21 | #include <touchgfx/hal/HAL.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [TouchGFX/target/subdir.mk:25: TouchGFX/target/TouchGFXHAL.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+10:32:49 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:117:19: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  117 |                   USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);
+      |                   ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  36948	    300	   4388	  41636	   a2a4	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:35:06 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:117:19: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  117 |                   USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);
+      |                   ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  36952	    300	   4388	  41640	   a2a8	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:35:43 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:117:19: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  117 |                   USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);
+      |                   ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  36964	    300	   4388	  41652	   a2b4	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:36:51 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:54: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   for (int i = 0; i < 10000000; i++){USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);}
+      |                                                      ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  37044	    300	   4388	  41732	   a304	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:37:55 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:54: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   for (int i = 0; i < 10000000; i++){USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);}
+      |                                                      ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  37044	    300	   4388	  41732	   a304	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:38:24 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:54: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   for (int i = 0; i < 10000000; i++){USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);}
+      |                                                      ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  37044	    300	   4388	  41732	   a304	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:38:55 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:54: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   for (int i = 0; i < 10000000; i++){USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);}
+      |                                                      ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  37044	    300	   4388	  41732	   a304	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:39:30 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:54: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   for (int i = 0; i < 10000000; i++){USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);}
+      |                                                      ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  37044	    300	   4388	  41732	   a304	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:40:05 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:54: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   for (int i = 0; i < 10000000; i++){USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);}
+      |                                                      ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  37044	    300	   4388	  41732	   a304	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:40:34 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:54: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   for (int i = 0; i < 10000000; i++){USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);}
+      |                                                      ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  37044	    300	   4388	  41732	   a304	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:41:11 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:54: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   for (int i = 0; i < 10000000; i++){USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);}
+      |                                                      ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  37044	    300	   4388	  41732	   a304	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:42:12 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:54: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   for (int i = 0; i < 10000000; i++){USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);}
+      |                                                      ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  37044	    300	   4388	  41732	   a304	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:43:27 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:54: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   for (int i = 0; i < 10000000; i++){USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);}
+      |                                                      ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  37080	    300	   4388	  41768	   a328	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:44:06 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:54: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   for (int i = 0; i < 10000000; i++){USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);}
+      |                                                      ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  37084	    300	   4388	  41772	   a32c	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:45:03 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:54: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   for (int i = 0; i < 10000000; i++){USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);}
+      |                                                      ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  37088	    300	   4388	  41776	   a330	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:46:54 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:19: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);
+      |                   ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  36928	    300	   4388	  41616	   a290	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:47:21 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:19: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);
+      |                   ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  36928	    300	   4388	  41616	   a290	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:48:21 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:19: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);
+      |                   ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  36952	    300	   4388	  41640	   a2a8	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:51:02 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:19: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);
+      |                   ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  36956	    300	   4388	  41644	   a2ac	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:51:18 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:19: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);
+      |                   ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  36960	    300	   4388	  41648	   a2b0	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:51:58 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:19: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);
+      |                   ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  36960	    300	   4388	  41648	   a2b0	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+10:52:54 **** Incremental Build of configuration Debug for project MouseProject ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4R5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:19: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  110 |                   USBD_HID_SendReport(&hUsbDeviceFS, buffer, 4);
+      |                   ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "MouseProject.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\lagoeirl\STM32CubeIDE\USB\MouseProject\STM32L4R5ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MouseProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MouseProject.elf
+ 
+arm-none-eabi-size  MouseProject.elf 
+arm-none-eabi-objdump -h -S MouseProject.elf  > "MouseProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  36960	    300	   4388	  41648	   a2b0	MouseProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: MouseProject.list
+ 
+12:51:55 **** Build of configuration Debug for project USB_TEST ****
+make -j8 all 
+arm-none-eabi-gcc "../USB_Device/Target/usbd_conf.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_Device/Target/usbd_conf.d" -MT"USB_Device/Target/usbd_conf.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "USB_Device/Target/usbd_conf.o"
+arm-none-eabi-gcc "../USB_Device/App/usb_device.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_Device/App/usb_device.d" -MT"USB_Device/App/usb_device.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "USB_Device/App/usb_device.o"
+arm-none-eabi-gcc "../USB_Device/App/usbd_cdc_if.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_Device/App/usbd_cdc_if.d" -MT"USB_Device/App/usbd_cdc_if.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "USB_Device/App/usbd_cdc_if.o"
+arm-none-eabi-gcc "../USB_Device/App/usbd_desc.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_Device/App/usbd_desc.d" -MT"USB_Device/App/usbd_desc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "USB_Device/App/usbd_desc.o"
+arm-none-eabi-gcc "../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.d" -MT"Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o"
+arm-none-eabi-gcc "../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.d" -MT"Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o"
+arm-none-eabi-gcc "../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.d" -MT"Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o"
+arm-none-eabi-gcc "../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.d" -MT"Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd_ex.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.o"
+arm-none-eabi-gcc -mcpu=cortex-m0plus -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32g0b1retx.d" -MT"Core/Startup/startup_stm32g0b1retx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32g0b1retx.o" "../Core/Startup/startup_stm32g0b1retx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32g0xx_hal_msp.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32g0xx_hal_msp.d" -MT"Core/Src/stm32g0xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32g0xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32g0xx_it.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32g0xx_it.d" -MT"Core/Src/stm32g0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32g0xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32g0xx.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32g0xx.d" -MT"Core/Src/system_stm32g0xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32g0xx.o"
+arm-none-eabi-gcc -o "USB_TEST.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\lagoeirl\STM32CubeIDE\USB\USB_TEST\STM32G0B1RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="USB_TEST.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: USB_TEST.elf
+ 
+arm-none-eabi-size  USB_TEST.elf 
+arm-none-eabi-objdump -h -S USB_TEST.elf  > "USB_TEST.list"
+   text	   data	    bss	    dec	    hex	filename
+  38748	    256	   5272	  44276	   acf4	USB_TEST.elf
+Finished building: default.size.stdout
+ 
+Finished building: USB_TEST.list
+ 
+12:52:19 **** Incremental Build of configuration Debug for project USB_TEST ****
+make -j8 all 
+arm-none-eabi-size  USB_TEST.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38748	    256	   5272	  44276	   acf4	USB_TEST.elf
+Finished building: default.size.stdout
+ 
+13:14:38 **** Incremental Build of configuration Debug for project USB_TEST ****
+make -j8 all 
+arm-none-eabi-gcc "../USB_Device/App/usbd_cdc_if.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_Device/App/usbd_cdc_if.d" -MT"USB_Device/App/usbd_cdc_if.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "USB_Device/App/usbd_cdc_if.o"
+../USB_Device/App/usbd_cdc_if.c: In function 'CDC_Control_FS':
+../USB_Device/App/usbd_cdc_if.c:235:49: error: unknown type name '\U0000200b'
+  235 |         pbuf[0] = (uint8_t)(LineCoding.bitrate);​
+      |                                                  
+../USB_Device/App/usbd_cdc_if.c:236:19: error: invalid initializer
+  236 |         pbuf[1] = (uint8_t)(LineCoding.bitrate >> 8);​
+      |                   ^
+../USB_Device/App/usbd_cdc_if.c:236:54: error: unknown type name '\U0000200b'
+  236 |         pbuf[1] = (uint8_t)(LineCoding.bitrate >> 8);​
+      |                                                       
+../USB_Device/App/usbd_cdc_if.c:237:9: error: conflicting types for 'pbuf'; have 'int[2]'
+  237 |         pbuf[2] = (uint8_t)(LineCoding.bitrate >> 16);​
+      |         ^~~~
+../USB_Device/App/usbd_cdc_if.c:236:9: note: previous definition of 'pbuf' with type 'int[1]'
+  236 |         pbuf[1] = (uint8_t)(LineCoding.bitrate >> 8);​
+      |         ^~~~
+../USB_Device/App/usbd_cdc_if.c:237:19: error: invalid initializer
+  237 |         pbuf[2] = (uint8_t)(LineCoding.bitrate >> 16);​
+      |                   ^
+../USB_Device/App/usbd_cdc_if.c:237:55: error: unknown type name '\U0000200b'
+  237 |         pbuf[2] = (uint8_t)(LineCoding.bitrate >> 16);​
+      |                                                        
+../USB_Device/App/usbd_cdc_if.c:238:9: error: conflicting types for 'pbuf'; have 'int[3]'
+  238 |         pbuf[3] = (uint8_t)(LineCoding.bitrate >> 24);​
+      |         ^~~~
+../USB_Device/App/usbd_cdc_if.c:237:9: note: previous definition of 'pbuf' with type 'int[2]'
+  237 |         pbuf[2] = (uint8_t)(LineCoding.bitrate >> 16);​
+      |         ^~~~
+../USB_Device/App/usbd_cdc_if.c:238:19: error: invalid initializer
+  238 |         pbuf[3] = (uint8_t)(LineCoding.bitrate >> 24);​
+      |                   ^
+../USB_Device/App/usbd_cdc_if.c:238:55: error: unknown type name '\U0000200b'
+  238 |         pbuf[3] = (uint8_t)(LineCoding.bitrate >> 24);​
+      |                                                        
+../USB_Device/App/usbd_cdc_if.c:239:9: error: conflicting types for 'pbuf'; have 'int[4]'
+  239 |         pbuf[4] = LineCoding.format;​
+      |         ^~~~
+../USB_Device/App/usbd_cdc_if.c:238:9: note: previous definition of 'pbuf' with type 'int[3]'
+  238 |         pbuf[3] = (uint8_t)(LineCoding.bitrate >> 24);​
+      |         ^~~~
+../USB_Device/App/usbd_cdc_if.c:239:19: error: invalid initializer
+  239 |         pbuf[4] = LineCoding.format;​
+      |                   ^~~~~~~~~~
+../USB_Device/App/usbd_cdc_if.c:239:37: error: unknown type name '\U0000200b'
+  239 |         pbuf[4] = LineCoding.format;​
+      |                                      
+../USB_Device/App/usbd_cdc_if.c:240:9: error: conflicting types for 'pbuf'; have 'int[5]'
+  240 |         pbuf[5] = LineCoding.paritytype;​
+      |         ^~~~
+../USB_Device/App/usbd_cdc_if.c:239:9: note: previous definition of 'pbuf' with type 'int[4]'
+  239 |         pbuf[4] = LineCoding.format;​
+      |         ^~~~
+../USB_Device/App/usbd_cdc_if.c:240:19: error: invalid initializer
+  240 |         pbuf[5] = LineCoding.paritytype;​
+      |                   ^~~~~~~~~~
+../USB_Device/App/usbd_cdc_if.c:240:41: error: unknown type name '\U0000200b'
+  240 |         pbuf[5] = LineCoding.paritytype;​
+      |                                          
+../USB_Device/App/usbd_cdc_if.c:241:9: error: conflicting types for 'pbuf'; have 'int[6]'
+  241 |         pbuf[6] = LineCoding.datatype;
+      |         ^~~~
+../USB_Device/App/usbd_cdc_if.c:240:9: note: previous definition of 'pbuf' with type 'int[5]'
+  240 |         pbuf[5] = LineCoding.paritytype;​
+      |         ^~~~
+../USB_Device/App/usbd_cdc_if.c:241:19: error: invalid initializer
+  241 |         pbuf[6] = LineCoding.datatype;
+      |                   ^~~~~~~~~~
+../USB_Device/App/usbd_cdc_if.c:241:9: warning: unused variable 'pbuf' [-Wunused-variable]
+  241 |         pbuf[6] = LineCoding.datatype;
+      |         ^~~~
+make: *** [USB_Device/App/subdir.mk:25: USB_Device/App/usbd_cdc_if.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+13:16:30 **** Incremental Build of configuration Debug for project USB_TEST ****
+make -j8 all 
+arm-none-eabi-gcc "../USB_Device/App/usbd_cdc_if.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G0B1xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I../USB_Device/App -I../USB_Device/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_Device/App/usbd_cdc_if.d" -MT"USB_Device/App/usbd_cdc_if.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "USB_Device/App/usbd_cdc_if.o"
+arm-none-eabi-gcc -o "USB_TEST.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\lagoeirl\STM32CubeIDE\USB\USB_TEST\STM32G0B1RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="USB_TEST.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: USB_TEST.elf
+ 
+arm-none-eabi-size  USB_TEST.elf 
+arm-none-eabi-objdump -h -S USB_TEST.elf  > "USB_TEST.list"
+   text	   data	    bss	    dec	    hex	filename
+  39172	    264	   5272	  44708	   aea4	USB_TEST.elf
+Finished building: default.size.stdout
+ 
+Finished building: USB_TEST.list
+ 

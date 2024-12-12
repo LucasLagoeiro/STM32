@@ -1,0 +1,21 @@
+2024-11-05 09:30:23,320 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.SocketTimeoutException: Read timed out
+2024-11-05 09:30:24,960 [ERROR] AdobePublisher:183 - Exception while getting the server answer: java.io.IOException: Server returned HTTP response code: 400 for URL: https://stmicroelectronics.d3.sc.omtrdc.net/b/ss//6
+2024-11-05 09:33:22,081 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 503 Service Unavailable"
+2024-11-05 09:33:22,527 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 503 Service Unavailable"
+2024-11-05 09:33:22,971 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 503 Service Unavailable"
+2024-11-05 09:33:23,413 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 503 Service Unavailable"
+2024-11-05 09:33:23,864 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 503 Service Unavailable"
+2024-11-05 09:47:52,188 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.SocketTimeoutException: Read timed out
+2024-11-05 09:47:54,426 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.SocketTimeoutException: Read timed out
+2024-11-05 09:47:56,126 [ERROR] AdobePublisher:183 - Exception while getting the server answer: java.io.IOException: Server returned HTTP response code: 400 for URL: https://stmicroelectronics.d3.sc.omtrdc.net/b/ss//6
+2024-11-05 10:36:24,586 [INFO] WebApp:388 - JxBrowser engine has been closed 
+2024-11-05 10:38:01,038 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 503 Service Unavailable"
+2024-11-05 10:38:01,491 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 503 Service Unavailable"
+2024-11-05 10:38:01,927 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 503 Service Unavailable"
+2024-11-05 10:38:02,363 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 503 Service Unavailable"
+2024-11-05 10:38:02,797 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 503 Service Unavailable"
+2024-11-05 10:38:05,494 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 503 Service Unavailable"
+2024-11-05 10:38:05,935 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 503 Service Unavailable"
+2024-11-05 10:38:06,375 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 503 Service Unavailable"
+2024-11-05 10:38:06,824 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 503 Service Unavailable"
+2024-11-05 10:38:07,269 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 503 Service Unavailable"
